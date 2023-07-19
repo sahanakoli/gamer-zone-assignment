@@ -24,8 +24,19 @@
         gap: 100px;
         margin-top: 10px;
     }
-    
-    
+    .play-game-img,
+    .play-game-content,
+    .footer-content{
+        flex-direction: column;
+    }
+    .icon-section1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .icon-section1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
 
@@ -38,7 +49,8 @@
     .nav-item-container a{
         margin-top: 20px;
     }
-    .banner-container{
+    .banner-container,
+    .footer-content{
         flex-direction: column;
     }
     .banner-content,
@@ -55,6 +67,19 @@
         gap: 100px;
         margin-top: 10px;
     }
+    .play-game-img,
+    .play-game-content{
+        flex-direction: column;
+    }
+    .icon-section1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .icon-section1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
     
     
 }
