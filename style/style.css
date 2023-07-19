@@ -175,7 +175,7 @@ font-weight: 400;
 .main-content-img{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin:50px 200px 0px 200px ;
     
 }
 .img-description{
@@ -242,5 +242,9 @@ text-align: center;
 align-items: center;
 }
 .icon{
-    
+cursor: pointer;
+
+}
+.icon:hover{
+    background-color: #F948B2;
 }
