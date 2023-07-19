@@ -2,11 +2,18 @@
     .nav-container,
     .nav-item-container{
         flex-direction: column;
+        width: 100%;
     }
     .nav-item-container a{
         margin-top: 20px;
     }
-    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content,
+    .banner-img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -16,6 +23,13 @@
     }
     .nav-item-container a{
         margin-top: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content,
+    .banner-img{
+        width: 100%;
     }
     
 }
