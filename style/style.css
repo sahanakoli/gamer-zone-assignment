@@ -157,7 +157,8 @@ background-clip: text;
 /* main section style */
 .main-content{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
+    
 }
 .main-content-title{
     color: #0B0223;
@@ -182,4 +183,64 @@ font-weight: 400;
 font-size: 20px;
 font-weight: 500;
 
+}
+/* play game section style */
+.play-game{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+   
+}
+.game-img{
+    position:absolute;
+    margin-top: 200px;
+    margin-bottom: -200px;
+    
+
+}
+.play-game-content{
+    text-align: left;
+}
+.play-game-title{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.play-game-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* icon section style */
+.icon-section{
+    width: 1920px;
+height: 427px;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+align-items: center;
+padding: 40px 150px;
+}
+.game-icon{
+    width: 243px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+}
+.icon{
+    
 }

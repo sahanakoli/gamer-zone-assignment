@@ -14,6 +14,14 @@
     .banner-img{
         width: 100%;
     }
+    .main-content{
+        margin-top: 150px;
+        flex-direction: column;
+    }
+    .main-content-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
