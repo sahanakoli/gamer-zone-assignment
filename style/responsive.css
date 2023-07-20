@@ -8,8 +8,7 @@
         margin-top: 20px;
     }
     .banner-container,
-    .play-game,
-    .footer-content{
+    .play-game{
         flex-direction: column;
     }
     .banner-content,
@@ -18,8 +17,7 @@
     
     }
     .content-icon{
-        /* margin-left: -300px; */
-        text-align: center;
+        text-align: left;
     }
     .main-content{
         margin-top: 250px;
@@ -41,15 +39,46 @@
     }
     .icon-section1{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,2fr );
+        width: 100%;
     }
-    .icon-section1{
+    .icon-section2{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,2fr);
+        padding-bottom: 0px;
+        padding-top: 20px;
+    
     }
-    
-    
-    
+    .footer-content{
+        margin-left: 80px;
+    }
+    .footer-logo{
+        padding-top: 80px;
+    } 
+    .footer-li{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding-left: 150px;
+        padding-right: 100px;
+        
+        
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding-left: 200px;
+        padding-right: 200px;
+        
+        
+    }
+    .footer-terms{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        padding-left: 150px;
+        padding-right: 80px;
+        padding-bottom: 20px;
+        
+    }
     
 } 
 
@@ -94,16 +123,47 @@
     .play-game-content{
         flex-direction: column;
     }
-    .icon-section1{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+    .icon-section{
+        margin-left: 80px;
     }
     .icon-section1{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,2fr );
+        padding-top: 20px;
     }
-    
-    
-    
+    .icon-section2{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding-bottom: 0px;
+        padding-top: 20px;
+    }
+    .footer-content{
+        margin-left: 80px;
+    }
+    .footer-logo{
+        padding-top: 100px;
+    }
+    .footer-li{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding-left: 220px;
+        padding-right: 100px;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding-left: 250px;
+        padding-right: 200px;
+        
+        
+    }
+    .footer-terms{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        padding-left: 220px;
+        padding-right: 80px;
+        padding-bottom: 20px;
+        
+    }
     
 } 
