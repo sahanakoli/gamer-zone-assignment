@@ -105,7 +105,6 @@
     color: #0B0223;
     font-size: 48px;
     font-weight: 600;
-    text-transform: uppercase;
     padding-top: 120px;
 
 
@@ -113,7 +112,6 @@
 .banner-description{
     font-size: 95px;
     font-weight: 800;
-    text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
