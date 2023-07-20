@@ -7,65 +7,33 @@
     .nav-item-container a{
         margin-top: 20px;
     }
-    .banner-container{
-        flex-direction: column;
-    }
-    .banner-content,
-    .banner-img{
-        width: 100%;
-    }
-    .main-content{
-        margin-top: 250px;
-        flex-direction: column;
-    }
-    .main-content-img{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 100px;
-        margin-top: 10px;
-    }
-    .play-game-img,
-    .play-game-content,
-    .footer-content{
-        flex-direction: column;
-    }
-    .icon-section1{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .icon-section1{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-}
-
-@media screen and (min-width:576px) and (max-width:992px) {
-    .nav-container,
-    .nav-item-container{
-        flex-direction: column;
-        width: 100%;
-    }
-    .nav-item-container a{
-        margin-top: 20px;
-    }
     .banner-container,
+    .play-game,
     .footer-content{
         flex-direction: column;
     }
     .banner-content,
     .banner-img{
         width: 100%;
+    
+    }
+    .content-icon{
+        /* margin-left: -300px; */
+        text-align: center;
     }
     .main-content{
         margin-top: 250px;
         flex-direction: column;
     }
+    .main-content-item{
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
     .main-content-img{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 100px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
     .play-game-img,
     .play-game-content{
@@ -82,4 +50,50 @@
     
     
     
-}
+} 
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container,
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+    .banner-container,
+    .play-game,
+    .footer-content{
+        flex-direction: column;
+    }
+    .banner-content,
+    .banner-img{
+        width: 100%;
+        text-align: center;
+    }
+    .content-icon{
+        margin-left: 300px;
+        
+    }
+    .main-content{
+        margin-top: 250px;
+        flex-direction: column;
+    }
+    .main-content-item{
+        margin-top: 600px;
+        margin-bottom: 0px;
+    }
+    .main-content-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 100px;
+        margin-top: 50px;
+    }
+    .play-game-img,
+    .play-game-content{
+        flex-direction: column;
+    }
+    
+    
+    
+} 

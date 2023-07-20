@@ -200,17 +200,14 @@ font-weight: 500;
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 200px;
    
 }
 .game-img{
     position:relative;
-    bottom: 200px;
-    margin-left: 250px;
-    margin-right: -250px;
-}
-.play-game-img{
-    position: static;
+    left: 300px;
+    top: -200px;
+    
 }
 
 .play-game-content{
@@ -250,6 +247,7 @@ margin-top: 100px;
     align-items: center;
     gap: 20px;
     padding-top: 120px;
+    flex-wrap: wrap;
 }
 .icon-section2{
     display: flex;
@@ -257,6 +255,7 @@ margin-top: 100px;
     align-items: center;
     gap: 30px;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 
